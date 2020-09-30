@@ -5,7 +5,7 @@ Instagram-client is an API wrapper written in Python.
 ## Installing
 
 ```
-$ git clone https://github.com/Radup92/Instagram-client
+$ git clone https://github.com/scorpion1201/Instagram-client
 $ cd Instagram-client
 $ python3 setup.py build
 $ python3 setup.py install
@@ -34,7 +34,7 @@ def hashtag_crawl(tagname):
     return data
 
 if __name__ == "__main__":
-    data = hashtag_crawl("나불돈")
+    data = hashtag_crawl("Spotify")
     print(json.dumps(data, indent=4, sort_keys=True))
 ```
 
